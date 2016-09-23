@@ -1,12 +1,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenGardenControl", "ZenGardenControl\ZenGardenControl.csproj", "{53BB24E4-24E2-4F2C-988B-C4E351D40334}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenGarden", "ZenGarden\ZenGarden.csproj", "{C1483EAD-C6D7-43C8-BB30-CE80FD8BC5EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53BA6416-19CF-46A2-A101-611AA0700EF4}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ZenGardenSetup", "ZenGardenSetup\ZenGardenSetup.vdproj", "{8EC13BCB-2416-4F6A-B735-BE09FA0B2640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,21 +24,13 @@ Global
 		{C1483EAD-C6D7-43C8-BB30-CE80FD8BC5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1483EAD-C6D7-43C8-BB30-CE80FD8BC5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1483EAD-C6D7-43C8-BB30-CE80FD8BC5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC13BCB-2416-4F6A-B735-BE09FA0B2640}.Debug|Any CPU.ActiveCfg = Debug
+		{8EC13BCB-2416-4F6A-B735-BE09FA0B2640}.Debug|Any CPU.Build.0 = Debug
+		{8EC13BCB-2416-4F6A-B735-BE09FA0B2640}.Release|Any CPU.ActiveCfg = Release
+		{8EC13BCB-2416-4F6A-B735-BE09FA0B2640}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://koan.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ZenGarden\\ZenGarden.csproj
-		SccProjectName1 = ZenGarden
-		SccLocalPath1 = ZenGarden
-		SccProjectUniqueName2 = ZenGardenControl\\ZenGardenControl.csproj
-		SccProjectName2 = ZenGardenControl
-		SccLocalPath2 = ZenGardenControl
 	EndGlobalSection
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True

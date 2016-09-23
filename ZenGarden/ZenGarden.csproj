@@ -223,6 +223,7 @@
     <None Include="Resources\Edit_RedoHS.png" />
     <None Include="Resources\Edit_UndoHS.png" />
     <None Include="Resources\NewDocumentHS.png" />
+    <None Include="ZenGarden_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
