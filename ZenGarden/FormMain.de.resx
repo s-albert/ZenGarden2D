@@ -209,15 +209,6 @@
   <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Extras</value>
   </data>
-  <data name="menuItemInstructions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 26</value>
-  </data>
-  <data name="menuItemInstructions.Text" xml:space="preserve">
-    <value>&amp;Zen-Garten Hilfe</value>
-  </data>
-  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
-  </data>
   <data name="menuItemInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 26</value>
   </data>
@@ -4796,6 +4787,9 @@
         AAD/////wAcAAP/////ADwAA/////+AfAAD/////+D8AAP/////9/wAA////////AAD///////8AAP//
         /////wAA
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Zen-Garten</value>

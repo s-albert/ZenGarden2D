@@ -70,9 +70,12 @@ namespace WebMoment.ZenGarden
 			base.Dispose( disposing );
 		}
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
         #endregion
+
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        private static extern bool SetProcessDPIAware();
 
         /// <summary>
 		/// The main entry point for the application.
@@ -80,9 +83,12 @@ namespace WebMoment.ZenGarden
 		[STAThread]
 		static void Main() 
 		{
+            if (Environment.OSVersion.Version.Major >= 6)
+                SetProcessDPIAware();
             Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
 
-			try
+            try
 			{
 				Application.Run(new FormMain());
 			}
@@ -178,7 +184,7 @@ namespace WebMoment.ZenGarden
 
         private void menuItemInfo_Click(object sender, EventArgs e)
         {
-            Essy.Controls.AboutForm form = new Essy.Controls.AboutForm((Image)new Bitmap("ZenGarden.ICO"));
+            Essy.Controls.AboutForm form = new Essy.Controls.AboutForm(null);
             form.ControlBox = false;
             form.ShowDialog(this);
         }

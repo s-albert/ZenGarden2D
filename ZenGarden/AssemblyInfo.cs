@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System;
@@ -7,14 +8,14 @@ using System;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 //
-[assembly: AssemblyTitle("ZenGarden")]
+[assembly: AssemblyTitle("Zen Garden 2D")]
 [assembly: AssemblyDescription("Arrage a Zen garden")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ZenGarden")]
-[assembly: AssemblyCopyright("Albert Strimitzer")]
-[assembly: AssemblyTrademark("koan.ws")]
-[assembly: AssemblyCulture("")]		
+[assembly: AssemblyCopyright("S.Albert")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
 
 //
 // Version information for an assembly consists of the following four values:
@@ -27,7 +28,7 @@ using System;
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
 
-[assembly: AssemblyVersion("3.1.*")]
+[assembly: AssemblyVersion("4.0.*")]
 
 //
 // In order to sign your assembly you must specify a key to use. Refer to the 
@@ -56,3 +57,5 @@ using System;
 //
 [assembly: CLSCompliant(true)]
 [assembly: System.Runtime.InteropServices.ComVisible(false)]
+[assembly: Guid("12029EF1-AE03-447C-9344-9714F5A71CD8")]
+

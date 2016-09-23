@@ -25,8 +25,6 @@ namespace WebMoment.ZenGarden
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.menuItemOptions = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuItemInstructions = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.menuItemInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -165,22 +163,8 @@ namespace WebMoment.ZenGarden
             // 
             resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuItemInstructions,
-            this.toolStripSeparator4,
             this.menuItemInfo});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            // 
-            // menuItemInstructions
-            // 
-            resources.ApplyResources(this.menuItemInstructions, "menuItemInstructions");
-            this.menuItemInstructions.Image = global::WebMoment.ZenGarden.ResourceStrings.Help;
-            this.menuItemInstructions.Name = "menuItemInstructions";
-            this.menuItemInstructions.Click += new System.EventHandler(this.menuItemInstructions_Click);
-            // 
-            // toolStripSeparator4
-            // 
-            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
             // 
             // menuItemInfo
             // 
@@ -250,8 +234,6 @@ namespace WebMoment.ZenGarden
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem menuItemOptions;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem menuItemInstructions;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem menuItemInfo;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
