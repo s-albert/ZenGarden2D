@@ -21,20 +21,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C8A37E72005A6B12034017275D94602E"
+        "MsmKey" = "8:_2A9DC2E3AEEAB6889FB8DADEA3D117D0"
         "OwnerKey" = "8:_18591B144D524DA689AD4F94AC9C92EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D073D3919C5B19921DC707EC1657FA30"
+        "MsmKey" = "8:_EEA710AA2FC4732312A01D3D6D9C0720"
         "OwnerKey" = "8:_18591B144D524DA689AD4F94AC9C92EC"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D073D3919C5B19921DC707EC1657FA30"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -46,7 +40,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C8A37E72005A6B12034017275D94602E"
+        "OwnerKey" = "8:_2A9DC2E3AEEAB6889FB8DADEA3D117D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_EEA710AA2FC4732312A01D3D6D9C0720"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -144,14 +144,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C8A37E72005A6B12034017275D94602E"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2A9DC2E3AEEAB6889FB8DADEA3D117D0"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ZenGardenControl, Version=3.1.6089.21165, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ZenGardenControl, Version=3.1.6111.10938, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C8A37E72005A6B12034017275D94602E"
+                    "_2A9DC2E3AEEAB6889FB8DADEA3D117D0"
                     {
                     "Name" = "8:ZenGardenControl.dll"
                     "Attributes" = "3:512"
@@ -175,14 +175,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D073D3919C5B19921DC707EC1657FA30"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EEA710AA2FC4732312A01D3D6D9C0720"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:AboutBox, Version=2.0.0.21, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_D073D3919C5B19921DC707EC1657FA30"
+                    "_EEA710AA2FC4732312A01D3D6D9C0720"
                     {
                     "Name" = "8:AboutBox.dll"
                     "Attributes" = "3:512"
@@ -263,7 +263,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Zen Garden 2D"
         "ProductCode" = "8:{4977B057-7F59-492B-BACE-1E50D807E273}"
-        "PackageCode" = "8:{2A7D45D5-98A4-4A1B-A720-5ADCB933CD7A}"
+        "PackageCode" = "8:{43FEB564-9C27-4F65-95AA-FEA4B5D26A40}"
         "UpgradeCode" = "8:{C72DFF26-3046-4709-9C69-B44B0C0D5D50}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -385,7 +385,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_29B27887042C4957B8E147EA8DC6F8AD"
             {
-            "Name" = "8:Shortcut to Primary output from ZenGarden (Active)"
+            "Name" = "8:Zen Garden 2D"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -399,7 +399,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CD8479741B674767AA16D2EEF54E9A01"
             {
-            "Name" = "8:Shortcut to Primary output from ZenGarden (Active)"
+            "Name" = "8:Zen Garden 2D"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -812,7 +812,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_18591B144D524DA689AD4F94AC9C92EC"
             {
-            "SourcePath" = "8:..\\ZenGarden\\obj\\x64\\Release\\ZenGarden.exe"
+            "SourcePath" = "8:..\\ZenGarden\\obj\\Release\\ZenGarden.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E5358C42EE6541FA94139B6B4DCB9DB5"
